@@ -3,7 +3,7 @@
 This repository is my work produced in my Master's Thesis dissertation at Heriot-Watt University Edinburgh. Its goal was to set a neurorobotic model where a simulated brain network and an iCub robot simulation would exchange information to replicate symptoms of Parkinson's Disease, while exploring a treatment for it known as closed-loop Deep Brain Stimulation (DBS).
 To use this repo, you will need :
 
-- The complete files and package requirements specified in "requirements.txt" of the brain "Marmoset Model", developped by Dr. Ranieri (https://ieeexplore.ieee.org/document/9524925)
+- The complete files and package requirements specified in "requirements.txt" of the brain "Marmoset Model", developped by Dr. Ranieri ((https://github.com/cmranieri/MarmosetModel))
 - The robotology-superbuild package, to use the iCub robot (https://github.com/robotology/robotology-superbuild)
 
 This repo is composed of :
