@@ -17,24 +17,24 @@ To make the ensemble of the programs functions, apply this serie of steps :
 
 Launch yarpserver in a terminal :
 
-'''console
+```console
 yarpserver
-'''
+```
 
 On another terminal, launch the iCub robot Gazebo simulation :
 
-'''console
+```console
 gazebo icub_world.sdf
-'''
+```
 On another terminal, launch the brain Marmoset model :
 
-'''console
+```console
 python3.8 MarmosetBG.py
-'''
+```
 
 If the part of code enabling communication with the robot program is not commented, the simulation will wait to connect to the robot program before launching. Therefore, launch it in another terminal with :
 
-'''console
+```console
 python3.10 controle_exp.py
-'''
+```
 
